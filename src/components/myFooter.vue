@@ -9,5 +9,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+  @use '../scss/partials/vars' as *;
 
 </style>
