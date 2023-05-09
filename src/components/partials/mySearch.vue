@@ -24,6 +24,7 @@ export default {
 
     input{
       border: 1px solid $secondary-color;
+      box-shadow: none;
     }
 
     .btn-outline-secondary{

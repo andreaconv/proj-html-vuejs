@@ -1,6 +1,6 @@
 <script>
 import Search from './mySearch.vue';
-import { headerMenu } from '../../data/Header-menu.js'
+import { headerMenu } from '../../data/menu.js'
 
 export default {
   name: 'Nav',
