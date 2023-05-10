@@ -1,23 +1,26 @@
 <script>
-import mySection from './partials/mySection.vue';
-import Sectionjumbo from './partials/Sectionjumbo.vue';
+import firstSection from './partials/Build.vue';
+import secondSection from './partials/Construct.vue';
 import Dati from './partials/Dati.vue';
+import Featured from './partials/Featured.vue';
 
 export default {
   name: 'Main',
   components: {
-    mySection,
-    Sectionjumbo,
+    firstSection,
+    secondSection,
     Dati,
+    Featured,
   },
 }
 </script>
 
 <template>
 
-  <mySection />
-  <Sectionjumbo />
+  <firstSection />
+  <secondSection />
   <Dati />
+  <Featured />
 
 </template>
 

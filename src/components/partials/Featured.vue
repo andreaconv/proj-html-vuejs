@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'sezione da copiare',
+  name: 'Featured',
 }
 </script>
 

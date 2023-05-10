@@ -1,5 +1,5 @@
 <script>
-import Nav from './partials/myNav.vue'
+import Nav from './partials/Anav.vue'
 
 export default {
   name: 'Header',

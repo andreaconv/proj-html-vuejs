@@ -1,5 +1,5 @@
 <script>
-import Search from './mySearch.vue';
+import Search from './Bar.vue';
 import { headerMenu } from '../../data/menu.js'
 
 export default {
