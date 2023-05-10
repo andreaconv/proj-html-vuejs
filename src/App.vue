@@ -32,10 +32,14 @@ export default {
 
 <template>
 
-  <Header />
-  <Jumbo />
-  <Main />
-  <Footer />
+  <div>
+
+    <Header />
+    <Jumbo />
+    <Main />
+    <Footer />
+    
+  </div>
 
 </template>
 

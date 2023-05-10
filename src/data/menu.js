@@ -90,4 +90,23 @@ const aboutUs = [
   },
 ]
 
-export { headerMenu, exploreMenu, infoMenu, aboutUs }
+const dati = [
+  {
+    num: '1.926',
+    text: 'FINISHED SESSIONS'
+  },
+  {
+    num: '3.092+',
+    text: 'ENROLLED LEARNERS'
+  },
+  {
+    num: '200',
+    text: 'ONLINE INSTRUCTORS'
+  },
+  {
+    num: '100%',
+    text: 'SATISFACTION RATE'
+  },
+]
+
+export { headerMenu, exploreMenu, infoMenu, aboutUs, dati }

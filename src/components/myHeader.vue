@@ -6,6 +6,9 @@ export default {
   components: {
     Nav,
   },
+  methods: {
+    
+  }
 }
 </script>
 

@@ -1,12 +1,14 @@
 <script>
 import mySection from './partials/mySection.vue';
 import Sectionjumbo from './partials/Sectionjumbo.vue';
+import Dati from './partials/Dati.vue';
 
 export default {
   name: 'Main',
   components: {
     mySection,
     Sectionjumbo,
+    Dati,
   },
 }
 </script>
@@ -15,6 +17,7 @@ export default {
 
   <mySection />
   <Sectionjumbo />
+  <Dati />
 
 </template>
 

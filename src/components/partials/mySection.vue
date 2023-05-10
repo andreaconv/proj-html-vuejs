@@ -1,7 +1,7 @@
 <script>
 import { aboutUs } from '../../data/menu.js'
 export default {
-  name: 'section',
+  name: 'mySection',
   data(){
     return{
       aboutUs
