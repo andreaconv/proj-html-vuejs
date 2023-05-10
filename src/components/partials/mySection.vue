@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="ac-container">
     <div class="titles text-center">
-      <h5>START LEARNING CODING LANGUAGES</h5>
+      <h6>START LEARNING CODING LANGUAGES</h6>
       <h1>Build Your Dream <span>TODAY</span></h1>
     </div>
     <div class="cards-wrapper d-flex">
@@ -42,7 +42,7 @@ export default {
 
     .titles{
       padding: 60px 0;
-      h5{
+      h6{
         color: $gray;
       }
   

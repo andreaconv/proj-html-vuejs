@@ -14,7 +14,7 @@ export default {
 <template>
 
   <mySection />
-  <!-- <Sectionjumbo /> -->
+  <Sectionjumbo />
 
 </template>
 
