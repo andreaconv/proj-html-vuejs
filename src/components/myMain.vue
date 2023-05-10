@@ -1,12 +1,21 @@
 <script>
+import mySection from './partials/mySection.vue';
+import Sectionjumbo from './partials/Sectionjumbo.vue';
+
 export default {
   name: 'Main',
+  components: {
+    mySection,
+    Sectionjumbo,
+  },
 }
 </script>
 
 <template>
-  <h1>MAIN</h1>
-  <div class="container"></div>
+
+  <mySection />
+  <!-- <Sectionjumbo /> -->
+
 </template>
 
 <style lang="scss" scoped>

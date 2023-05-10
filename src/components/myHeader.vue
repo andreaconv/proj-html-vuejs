@@ -16,7 +16,7 @@ export default {
 <template>
   <header>
 
-    <div class="ac-container d-flex align-items-center justify-content-between h-100 p-2">
+    <div class="ac-container d-flex align-items-center justify-content-between h-100">
       <a href="#"><img src="/dark-logo.png" alt="logo"></a>
       <Nav />
     </div>

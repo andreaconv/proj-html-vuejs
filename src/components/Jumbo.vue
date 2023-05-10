@@ -10,7 +10,7 @@ export default {
   <section>
 
     <!-- <img  id="jumbo" src="../../src/assets/img/jumbo-overlay.svg" alt=""> -->
-    <div class="ac-container h-100 px-2 z-1">
+    <div class="ac-container h-100">
       <div class="row">
         <div class="col col-6 d-flex flex-column justify-content-center">
           <div id="jumbotron">

@@ -16,7 +16,7 @@ export default {
 <!-- TODO: animazione smooth per l'hover di tutti i link -->
 
 <template>
-  <div class="ac-container px-2">
+  <div class="ac-container">
     <section>
       <div class="row">
 

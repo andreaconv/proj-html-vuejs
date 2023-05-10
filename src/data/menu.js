@@ -71,4 +71,23 @@ const infoMenu = [
   },
 ]
 
-export { headerMenu, exploreMenu, infoMenu }
+const aboutUs = [
+  {
+    title: 'Idea Discussion',
+    description: 'Get teamed up with the specialists who work and teach coding for years at famous universities.'
+  },
+  {
+    title: 'Web Development',
+    description: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.'
+  },
+  {
+    title: 'System Administration',
+    description: 'Learners are encouraged to study the mechanism and structure of system administration.'
+  },
+  {
+    title: 'Graphic Design',
+    description: 'Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.'
+  },
+]
+
+export { headerMenu, exploreMenu, infoMenu, aboutUs }
