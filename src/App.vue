@@ -1,5 +1,6 @@
 <script>
 import Header from './components/myHeader.vue';
+import Jumbo from './components/Jumbo.vue';
 import Main from './components/myMain.vue';
 import Footer from './components/myFooter.vue';
 import { store } from './data/store';
@@ -8,6 +9,7 @@ export default {
   name: 'App',
   components: {
     Header,
+    Jumbo,
     Main,
     Footer,
   },
@@ -31,6 +33,7 @@ export default {
 <template>
 
   <Header />
+  <Jumbo />
   <Main />
   <Footer />
 

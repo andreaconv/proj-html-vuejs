@@ -5,7 +5,7 @@ export default {
 </script>
 
 <!-- TODO: 
-  1. togliere il bordo blu quando viene selezionato l'input
+  1. sistemare il bordo quando viene selezionato l'input al :focus
   2. togliere il bordo sinistro all'icona di ricerca -->
 
 <template>

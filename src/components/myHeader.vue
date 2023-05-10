@@ -9,7 +9,7 @@ export default {
 }
 </script>
 
-<!-- TODO: 
+<!-- TODO: MODIFICARE HEADER
   1. fixare in alto 
   2. cambiare il colore di sfondo
   3. aggiungere border shadow-->
@@ -31,6 +31,11 @@ export default {
   header{
     height: $height-header;
     background-color: $jumbo-color;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 100%;
 
     .ac-container{
 
