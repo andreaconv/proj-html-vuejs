@@ -1,6 +1,11 @@
 <script>
+import Accordion from './myAccordion.vue';
+
 export default {
   name: 'Sectionjumbo',
+  components: {
+    Accordion,
+  },
 }
 </script>
 
@@ -8,17 +13,20 @@ export default {
   <section>
     <div class="ac-container h-100">
       <div class="row">
-        <div class="col col-6 py-5">
-          <img  src="/about-us-03-image-01.png" alt="">
+        <div id="pos-rel" class="col col-6 py-5">
+          <img id="img" src="/about-us-03-image-01.png" alt="">
+          <img id="shape" src="../../assets/img/underlay-shape-lilla.svg" alt="">
         </div>
-        <!-- d-flex flex-column justify-content-center -->
+
         <div class="col col-6 py-5">
           <div class="content-text">
 
-            <div class="titles">
+            <div class="titles my-5">
               <h6>DREAM WITH <strong>MAXCOACH</strong></h6>
               <h1>Construct A <span>Stunning</span> Career Perspective</h1>
             </div>
+
+            <Accordion />
 
           </div>
         </div>
@@ -33,9 +41,19 @@ export default {
   @use '../../scss/partials/general' as *;
 
   section{
-    // debug
-    background-color: $jumbo-color;
+    #pos-rel{
+      position: relative;
 
+      img#img{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      img#shape{
+        width: 60%;
+      }
+    }
     .content-text{
       .titles{
         h6{
