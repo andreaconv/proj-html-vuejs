@@ -82,7 +82,6 @@ export default {
         background-color: $secondary-color;
         padding: .8rem 2.4rem;
         border: none;
-        cursor: pointer;
         &:hover{
           background-color: $primary-color;
         }

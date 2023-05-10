@@ -109,4 +109,55 @@ const dati = [
   },
 ]
 
-export { headerMenu, exploreMenu, infoMenu, aboutUs, dati }
+const cardsFeatured = [
+  {
+    price: 'Free',
+    img: '01',
+    name: 'Owen Christ',
+    plan: 'Personal Finance: Financial Security Thinking & Principles',
+    lessons: '2 Lessons',
+    students: '250 Students',
+  },
+  {
+    price: '$40.00',
+    img: '02',
+    name: 'Blanche Fields',
+    plan: 'Learning to Write as a Professional Author',
+    lessons: '20 Lessons',
+    students: '68 Students',
+  },
+  {
+    price: 'Free',
+    img: '01',
+    name: 'Maggie Strickland',
+    plan: 'Customer-centric Info-Tech Strategies',
+    lessons: '24 Lessons',
+    students: '921 Students',
+  },
+  {
+    price: '$19.00',
+    img: '02',
+    name: 'Maggie Strickland',
+    plan: 'Open Programming Courses for Everyone: Python',
+    lessons: '17 Lessons',
+    students: '65 Students',
+  },
+  {
+    price: '$26.00',
+    img: '01',
+    name: 'Blanche Fields',
+    plan: 'Academic Listening and Note-taking',
+    lessons: '14 Lessons',
+    students: '68 Students',
+  },
+  {
+    price: '$39.00',
+    img: '02',
+    name: 'Blanche Fields',
+    plan: 'Master jQuery in a Short Period of Time',
+    lessons: '6 Lessons',
+    students: '51 Students',
+  },
+]
+
+export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured }

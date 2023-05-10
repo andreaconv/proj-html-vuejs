@@ -1,6 +1,13 @@
 <script>
+import {cardsFeatured} from '../../data/menu.js';
+
 export default {
   name: 'Featured',
+  data(){
+    return{
+      cardsFeatured,
+    }
+  }
 }
 </script>
 
@@ -14,26 +21,33 @@ export default {
         <h1>Latest Featured <span>Courses</span></h1>
       </div>
   
-      <div class="cards-wrapper d-flex flex-wrap">
+      <div class="cards-wrapper d-flex flex-wrap mb-5">
   
         <!-- TODO: da ciclare le cards -->
   
-        <div class="card p-3">
-          <strong id="price">free</strong>
+        <div
+          class="card p-3"
+          v-for="(card, index) in cardsFeatured"
+          :key="index">
+          <strong id="price">{{card.price}}</strong>
           <div class="image">
-            <img src="/stock-full-hd-01-480x298.jpg" class="card-img-top" alt="...">
+            <img :src="`/stock-full-hd-0${index + 1}-480x298.jpg`" class="card-img-top" alt="...">
           </div>
           <div class="card-body px-4">
-            <img id="profile" src="/profile-01.jpeg" alt="">
-            <span id="name">Owen Christ</span>
-            <h4 class="card-title ">Personal finance: financial security thinkine princels</h4>
+            <img id="profile" :src="`/profile-${card.img}.jpeg`" alt="">
+            <span id="name">{{card.name}}</span>
+            <h4 class="card-title ">{{card.plan}}</h4>
             <div class="info">
-              <span><i class="fa-solid fa-sheet-plastic"></i> 2 lessons</span>
-              <span><i class="fa-regular fa-user"></i> 249 students</span>
+              <span><i class="fa-solid fa-sheet-plastic"></i> {{card.lessons}}</span>
+              <span><i class="fa-regular fa-user"></i> {{card.students}}</span>
             </div>
           </div>        
         </div>
   
+      </div>
+
+      <div class="text-center">
+        <button type="button" class="btn"><a href="#">View all courses <i class="fa-solid fa-arrow-right-long"></i></a></button>
       </div>
     </div>
 
@@ -46,6 +60,7 @@ export default {
 
   section{
     background-color: $second-white;
+    padding: 60px 0;
   }
   .ac-container{
     padding: 0;
@@ -108,6 +123,7 @@ export default {
 
       h4{
         margin: 1rem 0;
+        font-size: 1.4rem;
       }
 
       .info{
@@ -121,6 +137,19 @@ export default {
         i.fa-sheet-plastic{
           transform: rotateX(180deg);
         }
+      }
+    }
+
+    button{
+      background-color: $secondary-color;
+      padding: .8rem 3rem;
+      border: none;
+      &:hover{
+        background-color: $primary-color;
+      }
+      
+      *{
+        color: white;
       }
     }
   }
