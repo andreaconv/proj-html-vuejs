@@ -205,4 +205,27 @@ const cardsEvents = [
   },
 ]
 
-export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured, cardsEvents }
+const people = [
+  {
+    description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
+    name: 'Mina Hollace',
+    profession: '/ Freelancer',
+  },
+  {
+    description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
+    name: 'Madley pondor',
+    profession: '/ IT Specialist',
+  },
+  {
+    description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
+    name: 'Luvic Dubble',
+    profession: '/ Private Tutor',
+  },
+  // {
+  //   description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
+  //   name: 'Florance Themes',
+  //   profession: '/ Multimedia Admin',
+  // },
+]
+
+export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured, cardsEvents, people }

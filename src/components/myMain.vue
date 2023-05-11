@@ -6,6 +6,7 @@ import Featured from './partials/Featured.vue';
 import Learn from './partials/Learn.vue';
 import Learnmb from './partials/Learnmobile.vue';
 import Events from './partials/M-events.vue';
+import People from './partials/People.vue';
 
 export default {
   name: 'Main',
@@ -17,6 +18,7 @@ export default {
     Learn,
     Learnmb,
     Events,
+    People,
   },
 }
 </script>
@@ -32,6 +34,7 @@ export default {
   <Learn />
   <Learnmb />
   <Events />
+  <People />
 
 </template>
 
