@@ -23,8 +23,6 @@ export default {
   
       <div class="cards-wrapper d-flex flex-wrap mb-5">
   
-        <!-- TODO: da ciclare le cards -->
-  
         <div
           class="card p-3"
           v-for="(card, index) in cardsFeatured"

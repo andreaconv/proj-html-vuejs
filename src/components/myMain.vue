@@ -3,6 +3,7 @@ import firstSection from './partials/Build.vue';
 import secondSection from './partials/Construct.vue';
 import Dati from './partials/Dati.vue';
 import Featured from './partials/Featured.vue';
+import Learn from './partials/Learn.vue';
 
 export default {
   name: 'Main',
@@ -11,6 +12,7 @@ export default {
     secondSection,
     Dati,
     Featured,
+    Learn,
   },
 }
 </script>
@@ -21,6 +23,7 @@ export default {
   <secondSection />
   <Dati />
   <Featured />
+  <Learn />
 
 </template>
 
