@@ -5,6 +5,7 @@ import Dati from './partials/Dati.vue';
 import Featured from './partials/Featured.vue';
 import Learn from './partials/Learn.vue';
 import Learnmb from './partials/Learnmobile.vue';
+import Events from './partials/M-events.vue';
 
 export default {
   name: 'Main',
@@ -15,11 +16,14 @@ export default {
     Featured,
     Learn,
     Learnmb,
+    Events,
   },
 }
 </script>
 
 <template>
+
+  <!-- TODO: potrei passare i titoli delle varie sezioni con delle props -->
 
   <firstSection />
   <secondSection />
@@ -27,6 +31,7 @@ export default {
   <Featured />
   <Learn />
   <Learnmb />
+  <Events />
 
 </template>
 

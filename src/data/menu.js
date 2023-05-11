@@ -160,4 +160,49 @@ const cardsFeatured = [
   },
 ]
 
-export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured }
+const cardsEvents = [
+  {
+    city: 'Texas',
+    state: 'US',
+    plan: 'Storytelling Workshop',
+    day: '22',
+    month: 'APR',
+  },
+  {
+    city: 'New York',
+    state: 'US',
+    plan: 'Painting Art Contest 2020',
+    day: '10',
+    month: 'OCT',
+  },
+  {
+    city: 'Hamburg',
+    state: 'Germany',
+    plan: 'International Art Fair 2020',
+    day: '23',
+    month: 'NOV',
+  },
+  {
+    city: 'Illinois',
+    state: 'US',
+    plan: 'Street Performance: Call for Artist',
+    day: '15',
+    month: 'DEC',
+  },
+  {
+    city: 'Illinois',
+    state: 'US',
+    plan: 'Consumer Food Safety Education Conference',
+    day: '22',
+    month: 'JUL',
+  },
+  {
+    city: 'Dubai',
+    state: 'AE',
+    plan: 'How meditation improve your mental health?',
+    day: '12',
+    month: 'AUG',
+  },
+]
+
+export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured, cardsEvents }
