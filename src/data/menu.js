@@ -221,11 +221,11 @@ const people = [
     name: 'Luvic Dubble',
     profession: '/ Private Tutor',
   },
-  // {
-  //   description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
-  //   name: 'Florance Themes',
-  //   profession: '/ Multimedia Admin',
-  // },
+  {
+    description: 'I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.',
+    name: 'Florance Themes',
+    profession: '/ Multimedia Admin',
+  },
 ]
 
 export { headerMenu, exploreMenu, infoMenu, aboutUs, dati, cardsFeatured, cardsEvents, people }
