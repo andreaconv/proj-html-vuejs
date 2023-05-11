@@ -4,6 +4,7 @@ import secondSection from './partials/Construct.vue';
 import Dati from './partials/Dati.vue';
 import Featured from './partials/Featured.vue';
 import Learn from './partials/Learn.vue';
+import Learnmb from './partials/Learnmobile.vue';
 
 export default {
   name: 'Main',
@@ -13,6 +14,7 @@ export default {
     Dati,
     Featured,
     Learn,
+    Learnmb,
   },
 }
 </script>
@@ -24,6 +26,7 @@ export default {
   <Dati />
   <Featured />
   <Learn />
+  <Learnmb />
 
 </template>
 
